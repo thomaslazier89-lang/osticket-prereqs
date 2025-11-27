@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <figure>
   <img src="https://i.imgur.com/rC9ZI2h.png" width="80%">
-  <figcaption> If you do not have an Azure account, navigate to [microsoft.azure.com](https://microsoft.azure.com "Azure Account Page") and set up a free or pay-as-you-go account..</figcaption>
+  <figcaption> If you do not have an Azure account, navigate to [microsoft.azure.com](https://microsoft.azure.com) and set up a free or pay-as-you-go account..</figcaption>
 </figure>
 
 <br/>
@@ -42,22 +42,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <figure>
 <img src="https://i.imgur.com/cN5HPsV.png" height="80%" width="80%" alt="VM Create"/>
-<img src="https://i.imgur.com/9coLHEQ.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.com/0bX6ZiH.png" height="80%" width="80%" alt="VM Create"/>
   <figcaption>Next, navigate to the [Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM). </figcaption>
 </figure>
+<br/>
 
 <figure>
 <img src="https://i.imgur.com/Olnnzeo.png" height="80%" width="80%" alt="VM Create"/>
- <figcaption>Set up your VM as above to optimize speed and cost.</figcaption>
+<figcaption>Give your VM an appropriate name and set your region to East- US 2 for cost purposes.</figcaption>
 </figure>
+<br/>
 
 <figure>
-<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
-<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
-  <figcaption>Use the username/password combination: Adminuser/osTicketPassword1. Check the license item at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
+<img src="https://i.imgur.com/a/i8CE4AF.png" height="80%" width="80%" alt="VM Create"/>
+ <figcaption>Set up your VM as above to optimize speed and cost.</figcaption>
 </figure>
+<br/>
 
-<br />
+<figure>
+
+<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
+<figcaption>Use the username/password combination: Adminuser/osTicketPassword1. Check the license item at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
+</figure>
+<br /><br/>
+
 
 <figure>
 <img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>fd5O8mm
@@ -65,12 +73,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.comfd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
  <figcaption>Log into your newly created VM using its public IP address, and the credentials you created earlier.</figcaption>
 </figure>
+<br/>
 
 <figure>
 <img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/W6eBwIL.png" height="80%" width="80%" alt="VM Create"/>
  <figcaption>Log into your newly created VM, using its public IP address.</figcaption>
 </figure>
-
-
 <br />
+
