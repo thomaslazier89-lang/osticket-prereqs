@@ -64,15 +64,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <figure>
 <img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>fd5O8mm
 <img src="https://i.imgur.com/W6eBwIL.png" height="80%" width="80%" alt="VM Create"/>
-<img src="https://i.imgur.comfd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.com/fd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
  <figcaption>Log into your newly created VM using its public IP address, and the credentials you created earlier.</figcaption>
 </figure>
 <br/>
 
-<figure>
-<img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>
-<img src="https://i.imgur.com//fd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
- <figcaption>Log into your newly created VM, using its public IP address.</figcaption>
-</figure>
-<br />
+
 
