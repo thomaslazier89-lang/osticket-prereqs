@@ -73,8 +73,10 @@ Including passwords in plain, readable text within documentation is strongly dis
 <br/>
 
 <figure>
-<img src="https://i.imgur.com/SgAgGz1" height="80%" width="80%"alt="VM Create"/>
- <figcaption>Within the VM, open this webpage or copy and paste the following link in a browser window to download this[osTicket Installation File](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)</figcaption>
+  <img src="https://i.imgur.com/SgAgGz1" height="80%" width="80%"alt="VM Create"/>
+   <figcaption></figcaption>Within the VM, open this webpage or copy and paste the following link in a browser window to download this
+    <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&amp;export=download&amp;authuser=0">
+      osTicket Installation File </figcaption>
 </figure>
 <br/>
 
