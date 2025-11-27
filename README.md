@@ -55,7 +55,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <figure>
 
-<img src="https://i.imgur.com/tYGffVu.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.com/UsGysGz.png" height="80%" width="80%" alt="VM Create"/>
 <figcaption>Set up your VM as above to optimize speed and cost. Use the username/password combination: Adminuser/osTicketPassword1. Fill the license check box at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
 </figure>
 <br /><br/>
