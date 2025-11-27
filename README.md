@@ -58,16 +58,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/UsGysGz.png" height="80%" width="80%" alt="VM Create"/>
 <figcaption>Set up your VM as above to optimize speed and cost. Use the username/password combination: Adminuser/osTicketPassword1. Fill the license check box at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
 </figure>
-<br /><br/>
+<br />
+Security Reminder:
+Including passwords in plain, readable text within documentation is strongly discouraged. In real-world environments, credentials should always be stored securely using a password manager (e.g., KeePass, LastPass, NordPass). Passwords are shown here only to streamline the lab process, so please remain aware of proper security practices when handling sensitive information.
+<br/>
 
 
 <figure>
-<img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>fd5O8mm
+<img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/W6eBwIL.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/fd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
  <figcaption>Log into your newly created VM using its public IP address, and the credentials you created earlier.</figcaption>
 </figure>
 <br/>
 
+<figure>
+<img src="https://i.imgur.com/SgAgGz1" height="80%" width="80%"/>
+ <figcaption>Within the VM, open this webpage or copy and paste the following link in a browser window to download this[osTicket Installation File](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)</figcaption>
+</figure>
+<br/>
 
+<figure>
+<img src="https://i.imgur.com/GeRjOPp" height="80%" width="80%"/>
+ <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
+</figure>
+<br/>
 
+<figure>
+<img src="https://i.imgur.com/GeRjOPp" height="80%" width="80%"/>
+ <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
+</figure>
+<br/>
