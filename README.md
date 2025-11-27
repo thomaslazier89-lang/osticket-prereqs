@@ -32,6 +32,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+<figure>
+  <img src="https://i.imgur.com/rC9ZI2h.png" width="80%">
+  <figcaption> If you do not have an Azure account, navigate to [microsoft.azure.com](https://microsoft.azure.com "Azure Account Page") and set up a free or pay-as-you-go account..</figcaption>
+</figure>
+
+<br/>
+
 <p>
   <img src="https://i.imgur.com/rC9ZI2h.png" height="80%" width="80%" alt="Azure Splash Page"/>
   <br />
