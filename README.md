@@ -7,10 +7,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Learning Outcomes</h2>
 
--Configure a virtual server
--Connect server with client machines
--Install and configure ticketing software for admins, agents and users
--Understand the essential elements of ticket submission and resolution
+-Configure a virtual server <br />
+-Connect server with client machines <br />
+-Install and configure ticketing software for admins, agents and users <br />
+-Understand the essential elements of ticket submission and resolution <br />
 
 <h2>Environments and Technologies Used</h2>
 
