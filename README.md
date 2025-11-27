@@ -73,7 +73,7 @@ Including passwords in plain, readable text within documentation is strongly dis
 <br/>
 
 <figure>
-  <img src="https://i.imgur.com/SgAgGz1" height="80%" width="80%"alt="VM Create"/>
+  <img src="https://i.imgur.com/SgAgGz1.png" height="80%" width="80%"alt="VM Create"/>
    <figcaption></figcaption>Within the VM, open this webpage or copy and paste the following link in a browser window to download this
     <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&amp;export=download&amp;authuser=0">
       osTicket Installation File </figcaption>
@@ -81,13 +81,13 @@ Including passwords in plain, readable text within documentation is strongly dis
 <br/>
 
 <figure>
-<img src="https://i.imgur.com/GeRjOPp" height="80%" width="80%"alt="VM Create"/>
+<img src="https://i.imgur.com/GeRjOPp.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
 </figure>
 <br/>
 
 <figure>
-<img src="https://i.imgur.com/GeRjOPp" height="80%" width="80%"alt="VM Create"/>
+<img src="https://i.imgur.com/GeRjOPp.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
 </figure>
 <br/>
