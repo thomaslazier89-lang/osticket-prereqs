@@ -43,7 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <figure>
 <img src="https://i.imgur.com/cN5HPsV.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/0bX6ZiH.png" height="80%" width="80%" alt="VM Create"/>
-  <figcaption>Next, navigate to the [Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM). </figcaption>
+  <figcaption>Next, navigate to the[Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM). </figcaption>
 </figure>
 <br/>
 
@@ -55,7 +55,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <figure>
 
-<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.com/tYGffVu.png" height="80%" width="80%" alt="VM Create"/>
 <figcaption>Set up your VM as above to optimize speed and cost. Use the username/password combination: Adminuser/osTicketPassword1. Fill the license check box at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
 </figure>
 <br /><br/>
