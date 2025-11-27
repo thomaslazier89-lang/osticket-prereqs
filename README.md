@@ -34,11 +34,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
   <img src="https://i.imgur.com/rC9ZI2h.png" height="80%" width="80%" alt="Azure Splash Page"/>
+  <br />
 - If you do not have an Azure account, navigate to [microsoft.azure.com](microsoft.azure.com "Azure Account Page") and set up a free or pay-as-you-go account.
 </p>
 <p>
 <img src="https://i.imgur.com/cN5HPsV.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/9coLHEQ.png" height="80%" width="80%" alt="VM Create"/>
+  <br />
   - Next, navigate to the [Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM).
 </p>
 <p>
