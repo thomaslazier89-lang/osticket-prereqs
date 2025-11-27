@@ -40,44 +40,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br/>
 
 
-<p>
+<figure>
 <img src="https://i.imgur.com/cN5HPsV.png" height="80%" width="80%" alt="VM Create"/>
 <img src="https://i.imgur.com/9coLHEQ.png" height="80%" width="80%" alt="VM Create"/>
-  <br />
-  - Next, navigate to the [Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM).
-</p>
-<p>
+  <figcaption>Next, navigate to the [Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM). </figcaption>
+</figure>
+
+<figure>
 <img src="https://i.imgur.com/Olnnzeo.png" height="80%" width="80%" alt="VM Create"/>
-  - Set up your VM as above to optimize speed and cost.
-</p>
-<p>
+ <figcaption>Set up your VM as above to optimize speed and cost.</figcaption>
+</figure>
+
+<figure>
 <img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
-  <img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
-  - Use the username/password combination: Adminuser/osTicketPassword1
-  - Check the license item at the end of the page, otherwise an error will be generated when you create the VM.
-  - Finally, click Review + Create and click Create at the bottom of the summary screen.
-</p>
+<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
+  <figcaption>Use the username/password combination: Adminuser/osTicketPassword1. Check the license item at the end of the page, otherwise an error will be generated when you create the VM. Finally, click Review + Create and click Create at the bottom of the summary screen.  </figcaption>
+</figure>
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/EoCKwhZ.png" height="80%" width="80%" alt="VM Create"/>
-  - Use the username/password combination: Adminuser/osTicketPassword1.
-</p>
+<figure>
+<img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>fd5O8mm
+<img src="https://i.imgur.com/W6eBwIL.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.comfd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
+ <figcaption>Log into your newly created VM using its public IP address, and the credentials you created earlier.</figcaption>
+</figure>
+
+<figure>
+<img src="https://i.imgur.com/sq5rTOF.png" height="80%" width="80%" alt="VM Create"/>
+<img src="https://i.imgur.com/W6eBwIL.png" height="80%" width="80%" alt="VM Create"/>
+ <figcaption>Log into your newly created VM, using its public IP address.</figcaption>
+</figure>
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
