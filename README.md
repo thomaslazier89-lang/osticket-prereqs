@@ -198,5 +198,39 @@ Return to **Sites → Default Web Site → osTicket** and click **Browse *:80 (h
 
 ## 18. Configure PHP file
 
+![osTicket Setup](https://i.imgur.com/6kQFPlD.png)
 
+Rename **C:\inetpub\wwwroot\osTicket\include\ost-config.php** to **ost-config.php**
+
+## 19. Assign Permissions
+
+![osTicket Setup](https://i.imgur.com/2cxtcJ1.png)
+
+Right-click **ost-config.php** and select *Properties**. Open the **Security** tab, click **Advanced** and **Disable Inheritance**. 
+
+![osTicket Setup](https://i.imgur.com/4wB1QRT.png)
+
+Finally, click **Add** and enter the object name **Everyone** in the text field. Give the principal **Full control**. Click OK twice, then press **Apply**.
+
+
+## 20. Set Up osTicket
+
+![osTicket Setup](https://i.imgur.com/4wB1QRT.png)
+
+If not already open, reopen the **Browse *80: (http)** page in **IIS**. Click **Continue** twice to open the **osTicket Basic Installation** page.
+
+![osTicket Setup](https://i.imgur.com/8Ml4LXO.png)
+
+Fill out the information as above, making sure to set your **mySQL** settings accurately.
+
+## 21. Install HeidiSQL
+
+![osTicket Setup](https://i.imgur.com/8Ml4LXO.png)
+
+Return to the osTicket desktop file and install **HeidiSQL**. Open the program and create a new session with
+```
+root
+root
+```
+as the User/Password. 
 # 🎉 Installation Complete!
