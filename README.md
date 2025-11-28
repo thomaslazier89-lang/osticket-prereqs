@@ -116,7 +116,7 @@ Extract **php-7.3.8** into this folder.
 
 ## 11. Install VC Redist + MySQL
 
-![MySQL Install](https://i.imgur.com/RrT7jLd.png)
+![MySQL Install](https://i.imgur.com/JJ6RA25.png)
 
 Install:
 
@@ -128,5 +128,13 @@ Choose:
 - **Typical Setup**  
 - **Launch Configuration Wizard**  
 - **Standard Configuration**
+- **Username/Password:**
+
+```
+root
+root
+```
+## 11. Install VC Redist + MySQL
+
 
 # 🎉 Installation Complete!
