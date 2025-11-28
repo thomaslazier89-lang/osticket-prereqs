@@ -66,11 +66,22 @@ osTicketPassword1
 
 ## 5. Log Into the VM
 
-![Login 1](https://i.imgur.com/sq5rTOF.png)  
-![Login 2](https://i.imgur.com/W6eBwIL.png)  
-![Login 3](https://i.imgur.com/fd5O8mm.png)
+<div align="center">
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/sq5rTOF.png" alt="VM overview with public IP" width="30%">
+    <figcaption><em>Remote Desktop</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/W6eBwIL.png" alt="Remote Desktop connection prompt" width="30%">
+    <figcaption><em>Remote Desktop connection dialog</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/fd5O8mm.png" alt="Windows login screen" width="30%">
+    <figcaption><em>Windows login screen inside the VM</em></figcaption>
+  </figure>
+</div>
 
-Use your VM’s **public IP** to connect.
+Use your VM’s **public IP** and the credentials you configured to connect via Remote Desktop.
 
 ## 6. Download the osTicket Installation Files
 
@@ -85,13 +96,13 @@ https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1Nnq
 
 Right-click → **Extract All** → choose Desktop.
 
-## 8. Enable CGI in IIS
+## 8. Enable Internet Information Services with CGI
 
 ![IIS Setup](https://i.imgur.com/JGA0G2I.png)
 
 Navigate to:
 
-**Control Panel → Add/Remove Features → Turn Windows Features On or Off → IIS → Application Development Features → CGI**
+**Control Panel → Add/Remove Features → Turn Windows Features On or Off → Click IIS and Expand Drop-Down Menu→ Application Development Features → CGI**
 
 ## 9. Install PHP Manager & URL Rewrite
 
@@ -99,8 +110,8 @@ Navigate to:
 
 Install:
 
-- PHP Manager  
-- URL Rewrite  
+- **PHP Manager**  
+- **URL Rewrite** 
 
 ## 10. Create the PHP Directory
 
@@ -136,7 +147,31 @@ root
 ```
 ## 12. Open IIS as an Administrator
 
-## 13. Register PHP and Reload IIS
+![IIS Setup](https://i.imgur.com/fwrf7Wa.png)
+
+Open **IIS** as an admin using the search bar.
+
+
+## 13. Register PHP and Reload IIS 
+
+<div align="center">
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/syshlq6.png" alt="Click PHP Manager" width="30%">
+    <figcaption><em>Remote Desktop</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/G1HavBE.png" alt="Click Register PHP" width="30%">
+    <figcaption><em>Click Register new PHP version</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/r6saYWi.png" alt="Remote Desktop connection prompt" width="30%">
+    <figcaption><em>Provide the path to the file</em></figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 0 10px;">
+    <img src="https://i.imgur.com/Ijiz0gO.png" alt="Windows login screen" width="30%">
+    <figcaption><em>Return to the IIS Home Screen and Restart</em></figcaption>
+  </figure>
+</div>
 
 ## 14. Open IIS as an Administrator
 
