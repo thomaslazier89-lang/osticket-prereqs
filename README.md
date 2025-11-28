@@ -1,130 +1,132 @@
-🟦 osTicket - Prerequisites and Installation
+# 🟦 osTicket — Prerequisites and Installation
 
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
+![osTicket logo](https://i.imgur.com/Clzj7Xs.png)
 
-📘 Learning Outcomes
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system **osTicket**.
 
-Configure a virtual server
+## 📘 Learning Outcomes
 
-Connect server with client machines
+- Configure a virtual server  
+- Connect server with client machines  
+- Install and configure ticketing software for admins, agents, and users  
+- Understand the essential elements of ticket submission and resolution  
 
-Install and configure ticketing software for admins, agents, and users
+## 🖥️ Environments and Technologies Used
 
-Understand the essential elements of ticket submission and resolution
+- **Microsoft Azure (Virtual Machines / Compute)**  
+- **Remote Desktop**  
+- **Internet Information Services (IIS)**  
 
-🖥️ Environments and Technologies Used
+## 🧩 Operating Systems Used
 
-Microsoft Azure (Virtual Machines / Compute)
+- **Windows 10 (21H2)**  
 
-Remote Desktop
+## 📋 List of Prerequisites
 
-Internet Information Services (IIS)
+- Enable Internet Information Services (IIS)  
+- Install Web Platform Installer  
+- Install MySQL  
+- Install C++ Redistributable  
+- Configure permissions and install osTicket  
 
-🧩 Operating Systems Used
+# 🛠️ Installation Steps
 
-Windows 10 (21H2)
+## 1. Create or Sign In to an Azure Account
 
-📋 List of Prerequisites
+![Azure Account](https://i.imgur.com/rC9ZI2h.png)
 
-Enable Internet Information Services (IIS)
+If you do not have an Azure account, go to:  
+https://microsoft.azure.com
 
-Install Web Platform Installer
+## 2. Create an Azure Virtual Machine (VM)
 
-Install MySQL
+![Azure VM Screen 1](https://i.imgur.com/cN5HPsV.png)  
+![Azure VM Screen 2](https://i.imgur.com/0bX6ZiH.png)
 
-Install C++ Redistributable
+Navigate to the  
+[Azure Portal](https://portal.azure.com/auth/login),  
+log in, and create a virtual machine.
 
-Configure Permissions and Install osTicket
+## 3. Configure VM Basics
 
-🛠️ Installation Steps
-Step 1 — Azure Account Setup
+![VM Create](https://i.imgur.com/Olnnzeo.png)
 
-If you do not have an Azure account, navigate to
-microsoft.azure.com
+Choose region **East US 2** for cost savings.
 
-and set up a free or pay-as-you-go account.
+## 4. Optimize Your VM Settings
 
-Step 2 — Create a Virtual Machine (VM)
+![VM Settings](https://i.imgur.com/UsGysGz.png)
 
+Use credentials:
 
+```
+Adminuser
+osTicketPassword1
+```
 
+## 5. Log Into the VM
 
-Next, navigate to the
-Azure Portal
-,
-log in, and create a virtual machine (VM).
+![Login 1](https://i.imgur.com/sq5rTOF.png)  
+![Login 2](https://i.imgur.com/W6eBwIL.png)  
+![Login 3](https://i.imgur.com/fd5O8mm.png)
 
-Step 3 — Configure VM Basics
+Use your VM’s **public IP** to connect.
 
-Give your VM an appropriate name and set your region to East US 2 for cost purposes.
+## 6. Download the osTicket Installation Files
 
-Step 4 — Optimize VM Settings
+![Download](https://i.imgur.com/SgAgGz1.png)
 
-Set up your VM as above to optimize speed and cost.
-Use the username/password combination: Adminuser / osTicketPassword1.
+Download here:  
+https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
 
-⚠️ Security Reminder:
-Including passwords in plain text is strongly discouraged in production environments.
-Use a password manager such as KeePass, LastPass, or NordPass.
+## 7. Extract the Files
 
-Step 5 — Log Into the VM
+![Extract Files](https://i.imgur.com/GeRjOPp.png)
 
+Right-click → **Extract All** → choose Desktop.
 
+## 8. Enable CGI in IIS
 
-
-
-
-Log into your newly created VM using its public IP and the credentials you set earlier.
-
-Step 6 — Download the osTicket Installation Files
-
-Within the VM, open this webpage or copy and paste the following link to download the installer:
-
-osTicket Installation File
-
-Step 7 — Extract the Files
-
-Find the downloaded zip file → Right-click → Extract All
-Select your Desktop as the destination folder.
-
-Step 8 — Enable CGI in IIS
-
-To install IIS with the Common Gateway Interface:
-
-Open Control Panel
-
-Go to Add or Remove Features
-
-Open Turn Windows Features On or Off
+![IIS Setup](https://i.imgur.com/JGA0G2I.png)
 
 Navigate to:
-Internet Information Services → Application Development Features → CGI
 
-Step 9 — Install PHP Manager + URL Rewrite
+**Control Panel → Add/Remove Features → Turn Windows Features On or Off → IIS → Application Development Features → CGI**
 
-Next, install PHP Manager and URL Rewrite.
+## 9. Install PHP Manager & URL Rewrite
 
-Step 10 — Set Up PHP Directory
-
-Create a new folder:
-
-C:\PHP
-
-
-Extract the php-7.3.8 zip file into this folder.
-
-Step 11 — Install VC Redist + MySQL
+![PHP Manager](https://i.imgur.com/RrT7jLd.png)
 
 Install:
 
-VC_redist.x86.exe
+- PHP Manager  
+- URL Rewrite  
 
-MySQL 5.5.62
+## 10. Create the PHP Directory
 
-For MySQL, use:
+![PHP Directory](https://i.imgur.com/RrT7jLd.png)
 
-Typical Setup →
+Create:
 
-Launch Configuration Wizard →
+```
+C:\PHP
+```
 
-Standard Configuration
+Extract **php-7.3.8** into this folder.
+
+## 11. Install VC Redist + MySQL
+
+![MySQL Install](https://i.imgur.com/RrT7jLd.png)
+
+Install:
+
+- `VC_redist.x86.exe`
+- `MySQL 5.5.62`
+
+Choose:
+
+- **Typical Setup**  
+- **Launch Configuration Wizard**  
+- **Standard Configuration**
+
+# 🎉 Installation Complete!
