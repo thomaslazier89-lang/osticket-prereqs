@@ -87,7 +87,36 @@ Including passwords in plain, readable text within documentation is strongly dis
 <br/>
 
 <figure>
-<img src="https://i.imgur.com/GeRjOPp.png" height="80%" width="80%"alt="VM Create"/>
- <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
+<img src="https://i.imgur.com/JGA0G2I.png" height="80%" width="80%"alt="VM Create"/>
+ <figcaption>To install Internet Information Services with the common gateway interface, open the control panel, navigate to add or remove features and open "Turn Windows Features On or Off" from the sidebar. Open the dropdown menu for Internet Information Services>Application Development Services>CGI. </figcaption>
 </figure>
+<br/>
+
+<figure>
+<img src="https://i.imgur.com/JGA0G2I.png" height="80%" width="80%"alt="VM Create"/>
+ <figcaption>To install Internet Information Services with the common gateway interface, open the control panel, navigate to add or remove features and open "Turn Windows Features On or Off" from the sidebar. Open the dropdown menu for Internet Information Services>Application Development Services>CGI. </figcaption>
+</figure>
+<br/>
+
+
+<figure>
+<img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
+ <figcaption>Next, install PHP Manager and rewrite.</figcaption>
+</figure>
+<br/>
+
+<figure>
+<img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
+ <figcaption>Create a new folder in C:/ and name it "PHP". Extract the php-7.3.8 zip file into this folder. </figcaption>
+</figure>
+<br/>
+
+<figure>
+<img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
+ <figcaption>Install VC_redist.x86.exe and MySQL 5.5.62. For MySQL, choose the following options</figcaption>
+</figure>
+- Typical Setup ->
+- Launch Configuration Wizard (after install) ->
+- Standard Configuration ->
+
 <br/>
