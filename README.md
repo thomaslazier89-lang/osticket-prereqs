@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <figcaption> If you do not have an Azure account, navigate to [microsoft.azure.com](https://microsoft.azure.com) and set up a free or pay-as-you-go account..</figcaption>
 </figure>
 
-<br/>
+<br/><br />
 
 
 <figure>
@@ -45,13 +45,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/0bX6ZiH.png" height="80%" width="80%" alt="VM Create"/>
   <figcaption>Next, navigate to the[Azure Portal](https://portal.azure.com/auth/login/ "Azure Portal Page"), login and create a virtual machine (VM). </figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/Olnnzeo.png" height="80%" width="80%" alt="VM Create"/>
 <figcaption>Give your VM an appropriate name and set your region to East- US 2 for cost purposes.</figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 
@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 Security Reminder:
 Including passwords in plain, readable text within documentation is strongly discouraged. In real-world environments, credentials should always be stored securely using a password manager (e.g., KeePass, LastPass, NordPass). Passwords are shown here only to streamline the lab process, so please remain aware of proper security practices when handling sensitive information.
-<br/>
+<br/><br />
 
 
 <figure>
@@ -70,7 +70,7 @@ Including passwords in plain, readable text within documentation is strongly dis
 <img src="https://i.imgur.com/fd5O8mm.png" height="80%" width="80%" alt="VM Create"/>
  <figcaption>Log into your newly created VM using its public IP address, and the credentials you created earlier.</figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
   <img src="https://i.imgur.com/SgAgGz1.png" height="80%" width="80%"alt="VM Create"/>
@@ -78,38 +78,38 @@ Including passwords in plain, readable text within documentation is strongly dis
     <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&amp;export=download&amp;authuser=0">
       osTicket Installation File </figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/GeRjOPp.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>Find the file in your downloads folder, right-click and select Extract All from the dropdown menu. Next, set the destination path to your desktop and extract.</figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/JGA0G2I.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>To install Internet Information Services with the common gateway interface, open the control panel, navigate to add or remove features and open "Turn Windows Features On or Off" from the sidebar. Open the dropdown menu for Internet Information Services>Application Development Services>CGI. </figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/JGA0G2I.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>To install Internet Information Services with the common gateway interface, open the control panel, navigate to add or remove features and open "Turn Windows Features On or Off" from the sidebar. Open the dropdown menu for Internet Information Services>Application Development Services>CGI. </figcaption>
 </figure>
-<br/>
+<br/><br />
 
 
 <figure>
 <img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>Next, install PHP Manager and rewrite.</figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
  <figcaption>Create a new folder in C:/ and name it "PHP". Extract the php-7.3.8 zip file into this folder. </figcaption>
 </figure>
-<br/>
+<br/><br />
 
 <figure>
 <img src="https://i.imgur.com/RrT7jLd.png" height="80%" width="80%"alt="VM Create"/>
@@ -119,4 +119,4 @@ Including passwords in plain, readable text within documentation is strongly dis
 - Launch Configuration Wizard (after install) ->
 - Standard Configuration ->
 
-<br/>
+<br/><br />
