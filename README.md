@@ -154,24 +154,22 @@ Open **IIS** as an admin using the search bar.
 
 ## 13. Register PHP and Reload IIS 
 
-<div align="center">
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="https://i.imgur.com/syshlq6.png" alt="Click PHP Manager" width="30%">
-    <figcaption><em>Remote Desktop</em></figcaption>
-  </figure>
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="https://i.imgur.com/G1HavBE.png" alt="Click Register PHP" width="30%">
-    <figcaption><em>Click Register new PHP version</em></figcaption>
-  </figure>
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="https://i.imgur.com/r6saYWi.png" alt="Remote Desktop connection prompt" width="30%">
-    <figcaption><em>Provide the path to the file</em></figcaption>
-  </figure>
-  <figure style="display:inline-block; margin: 0 10px;">
-    <img src="https://i.imgur.com/Ijiz0gO.png" alt="Windows login screen" width="30%">
-    <figcaption><em>Return to the IIS Home Screen and Restart</em></figcaption>
-  </figure>
-</div>
+![IIS Setup](https://i.imgur.com/syshlq6.png)
+
+Click PHP Manager
+
+![IIS Setup](https://i.imgur.com/G1HavBE.png)
+
+Click Register new PHP version
+
+![IIS Setup](https://i.imgur.com/r6saYWi.png)
+
+Provide the path to the file   
+
+![IIS Setup](https://i.imgur.com/Ijiz0gO.png) 
+
+Return to the IIS Home Screen and Restart
+
 
 ## 14. Open IIS as an Administrator
 
