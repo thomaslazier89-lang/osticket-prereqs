@@ -154,13 +154,13 @@ Open **IIS** as an admin using the search bar.
 
 ## 13. Register PHP and Reload IIS 
 
-![IIS Setup](https://i.imgur.com/syshlq6.png)
+![IIS Setup](https://i.imgur.com/MKHEZ9l.png)
 
-Click PHP Manager
+Click **PHP Manager**
 
 ![IIS Setup](https://i.imgur.com/G1HavBE.png)
 
-Click Register new PHP version
+Click **Register new PHP version**
 
 ![IIS Setup](https://i.imgur.com/r6saYWi.png)
 
@@ -168,16 +168,35 @@ Provide the path to the file
 
 ![IIS Setup](https://i.imgur.com/Ijiz0gO.png) 
 
-Return to the IIS Home Screen and Restart
+Return to the **IIS Home Screen** by pressing the home or back icon on the taskbar and **Restart**
 
-
-## 14. Open IIS as an Administrator
 
 ## 15. Install osTicket v1.15.8 and Reload IIS
 
-## 16.
+![osTicket Setup](https://i.imgur.com/8DuWmV1.png)
 
-## 17.
+Unzip the **“osTicket-v1.15.8.zip** in its default location. Enter the folder and copy **Upload** into **C:\inetpub\wwwroot**, renaming it **osTicket**. Reload **IIS** again.
 
-## 18.
+## 16. Open the Extensions Page
+
+![osTicket Setup](https://i.imgur.com/ZmsDPG2.png)
+
+Go to **Sites → Default Web Site → osTicket** and look in the right sidebar for **Browse *:80 (http)**. Observe that some extensions are disabled by default.
+
+## 17. Enable Extensions
+
+![osTicket Setup](https://i.imgur.com/N38AwwM.png)
+
+Return to **Sites → Default Web Site → osTicket** and open **PHP Manager**. Scroll down the page until you find **Enable or disable an extension**. 
+
+Enable:
+- **php_imap.dll**
+- **php_intl.dll**
+- **php_opcache.dll**
+
+Return to **Sites → Default Web Site → osTicket** and click **Browse *:80 (http)** again to note the changes to the host website.
+
+## 18. Configure PHP file
+
+
 # 🎉 Installation Complete!
