@@ -115,7 +115,7 @@ Password: osTicketPassword1
 <div align="center">
   <figure style="display:inline-block; margin: 0 10px;">
     <img src="https://i.imgur.com/sq5rTOF.png" alt="VM overview with public IP" width="30%">
-    <figcaption><em>VM overview showing public IP</em></figcaption>
+    <figcaption><em>Remote Desktop</em></figcaption>
   </figure>
   <figure style="display:inline-block; margin: 0 10px;">
     <img src="https://i.imgur.com/W6eBwIL.png" alt="Remote Desktop connection prompt" width="30%">
