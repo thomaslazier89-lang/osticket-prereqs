@@ -134,7 +134,17 @@ Choose:
 root
 root
 ```
-## 11. Install VC Redist + MySQL
+## 12. Open IIS as an Administrator
 
+## 13. Register PHP and Reload IIS
 
+## 14. Open IIS as an Administrator
+
+## 15. Install osTicket v1.15.8 and Reload IIS
+
+## 16.
+
+## 17.
+
+## 18.
 # 🎉 Installation Complete!
