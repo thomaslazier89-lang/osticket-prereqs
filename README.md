@@ -10,7 +10,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - **Remote Desktop**  
 - **Internet Information Services (IIS)**
 - **PHP Manager**
-- -**HeidiSQL**
+- **HeidiSQL**
 
 ## 🧩 Operating Systems Used
 
