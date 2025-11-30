@@ -4,13 +4,6 @@
 
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system **osTicket**.
 
-## 📘 Learning Outcomes
-
-- Configure a virtual server  
-- Connect server with client machines  
-- Install and configure ticketing software for admins, agents, and users  
-- Understand the essential elements of ticket submission and resolution  
-
 ## 🖥️ Environments and Technologies Used
 
 - **Microsoft Azure (Virtual Machines / Compute)**  
@@ -19,15 +12,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ## 🧩 Operating Systems Used
 
-- **Windows 10 (21H2)**  
-
-## 📋 List of Prerequisites
-
-- Enable Internet Information Services (IIS)  
-- Install Web Platform Installer  
-- Install MySQL  
-- Install C++ Redistributable  
-- Configure permissions and install osTicket  
+- **Windows 10 (21H2)**   
 
 # 🛠️ Installation Steps
 
@@ -38,6 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 If you do not have an Azure account, go to:  
 https://microsoft.azure.com
 
+
 ## 2. Create an Azure Virtual Machine (VM)
 
 ![Azure VM Screen 1](https://i.imgur.com/cN5HPsV.png)  
@@ -47,11 +33,13 @@ Navigate to the
 [Azure Portal](https://portal.azure.com/auth/login),  
 log in, and create a virtual machine.
 
+
 ## 3. Configure VM Basics
 
 ![VM Create](https://i.imgur.com/Olnnzeo.png)
 
 Choose region **East US 2** for cost savings.
+
 
 ## 4. Optimize Your VM Settings
 
@@ -64,24 +52,26 @@ Adminuser
 osTicketPassword1
 ```
 
+
 ## 5. Log Into the VM
 
 <div align="center">
   <figure style="display:inline-block; margin: 0 10px;">
     <img src="https://i.imgur.com/sq5rTOF.png" alt="VM overview with public IP" width="30%">
-    <figcaption><em>Remote Desktop</em></figcaption>
+   
   </figure>
   <figure style="display:inline-block; margin: 0 10px;">
     <img src="https://i.imgur.com/W6eBwIL.png" alt="Remote Desktop connection prompt" width="30%">
-    <figcaption><em>Remote Desktop connection dialog</em></figcaption>
+   
   </figure>
   <figure style="display:inline-block; margin: 0 10px;">
     <img src="https://i.imgur.com/fd5O8mm.png" alt="Windows login screen" width="30%">
-    <figcaption><em>Windows login screen inside the VM</em></figcaption>
+   
   </figure>
 </div>
 
 Use your VM’s **public IP** and the credentials you configured to connect via Remote Desktop.
+
 
 ## 6. Download the osTicket Installation Files
 
@@ -90,11 +80,13 @@ Use your VM’s **public IP** and the credentials you configured to connect via 
 Download here:  
 https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
 
+
 ## 7. Extract the Files
 
 ![Extract Files](https://i.imgur.com/GeRjOPp.png)
 
 Right-click → **Extract All** → choose Desktop.
+
 
 ## 8. Enable Internet Information Services with CGI
 
@@ -104,6 +96,7 @@ Navigate to:
 
 **Control Panel → Add/Remove Features → Turn Windows Features On or Off → Click IIS and Expand Drop-Down Menu→ Application Development Features → CGI**
 
+
 ## 9. Install PHP Manager & URL Rewrite
 
 ![PHP Manager](https://i.imgur.com/RrT7jLd.png)
@@ -112,6 +105,7 @@ Install:
 
 - **PHP Manager**  
 - **URL Rewrite** 
+
 
 ## 10. Create the PHP Directory
 
@@ -124,6 +118,7 @@ C:\PHP
 ```
 
 Extract **php-7.3.8** into this folder.
+
 
 ## 11. Install VC Redist + MySQL
 
@@ -145,6 +140,8 @@ Choose:
 root
 root
 ```
+
+
 ## 12. Open IIS as an Administrator
 
 ![IIS Setup](https://i.imgur.com/fwrf7Wa.png)
@@ -177,11 +174,13 @@ Return to the **IIS Home Screen** by pressing the home or back icon on the taskb
 
 Unzip the **osTicket-v1.15.8.zip** in its default location. Enter the folder and copy **Upload** into **C:\inetpub\wwwroot**, renaming it **osTicket**. Reload **IIS** again.
 
+
 ## 16. Open the Extensions Page
 
 ![osTicket Setup](https://i.imgur.com/ZmsDPG2.png)
 
 Go to **Sites → Default Web Site → osTicket** and look in the right sidebar for **Browse *:80 (http)**. Observe that some extensions are disabled by default.
+
 
 ## 17. Enable Extensions
 
@@ -196,11 +195,13 @@ Enable:
 
 Return to **Sites → Default Web Site → osTicket** and click **Browse *:80 (http)** again to note the changes to the host website.
 
+
 ## 18. Configure PHP file
 
 ![osTicket Setup](https://i.imgur.com/6kQFPlD.png)
 
 Rename **C:\inetpub\wwwroot\osTicket\include\ost-config.php** to **ost-config.php**
+
 
 ## 19. Assign Permissions
 
@@ -230,6 +231,7 @@ root
 
 as the username/password combination.
 
+
 ## 21. Install HeidiSQL
 
 ![osTicket Setup](https://i.imgur.com//rFyHkBZ.png)
@@ -240,5 +242,6 @@ root
 root
 ```
 as the User/Password. 
+
 
 # 🎉 Installation Complete!
