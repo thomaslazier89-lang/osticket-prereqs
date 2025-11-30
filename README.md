@@ -15,7 +15,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - **Windows 10 (21H2)**   
 
 # 🛠️ Installation Steps
-<br/>
+<br>
 ## 1. Create or Sign In to an Azure Account
 
 ![Azure Account](https://i.imgur.com/rC9ZI2h.png)
@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 If you do not have an Azure account, go to:  
 https://microsoft.azure.com
 
-<br/>
+<br>
 ## 2. Create an Azure Virtual Machine (VM)
 
 ![Azure VM Screen 1](https://i.imgur.com/cN5HPsV.png)  
@@ -33,14 +33,14 @@ Navigate to the
 [Azure Portal](https://portal.azure.com/auth/login),  
 log in, and create a virtual machine.
 
-<br/>
+<br>
 ## 3. Configure VM Basics
 
 ![VM Create](https://i.imgur.com/Olnnzeo.png)
 
 Choose region **East US 2** for cost savings.
 
-<br/>
+
 ## 4. Optimize Your VM Settings
 
 ![VM Settings](https://i.imgur.com/UsGysGz.png)
@@ -52,7 +52,7 @@ Adminuser
 osTicketPassword1
 ```
 
-<br/>
+
 ## 5. Log Into the VM
 
 <div align="center">
