@@ -156,26 +156,26 @@ Open **IIS** as an admin using the search bar.
 
 ![IIS Setup](https://i.imgur.com/MKHEZ9l.png)
 
-Click **PHP Manager**
+Click **PHP Manager**. 
 
 ![IIS Setup](https://i.imgur.com/G1HavBE.png)
 
-Click **Register new PHP version**
+Click **Register new PHP version**.
 
 ![IIS Setup](https://i.imgur.com/r6saYWi.png)
 
-Provide the path to the file   
+Provide the path to the file.   
 
 ![IIS Setup](https://i.imgur.com/Ijiz0gO.png) 
 
-Return to the **IIS Home Screen** by pressing the home or back icon on the taskbar and **Restart**
+Return to the **IIS Home Screen** by pressing the home or back icon on the taskbar and **Restart**.
 
 
 ## 15. Install osTicket v1.15.8 and Reload IIS
 
 ![osTicket Setup](https://i.imgur.com/8DuWmV1.png)
 
-Unzip the **“osTicket-v1.15.8.zip** in its default location. Enter the folder and copy **Upload** into **C:\inetpub\wwwroot**, renaming it **osTicket**. Reload **IIS** again.
+Unzip the **osTicket-v1.15.8.zip** in its default location. Enter the folder and copy **Upload** into **C:\inetpub\wwwroot**, renaming it **osTicket**. Reload **IIS** again.
 
 ## 16. Open the Extensions Page
 
@@ -221,11 +221,18 @@ If not already open, reopen the **Browse *80: (http)** page in **IIS**. Click **
 
 ![osTicket Setup](https://i.imgur.com/8Ml4LXO.png)
 
-Fill out the information as above, making sure to set your **mySQL** settings accurately.
+Fill out the information as above, making sure to set your **mySQL** settings accurately. Use 
+
+```
+root
+root
+```
+
+as the username/password combination.
 
 ## 21. Install HeidiSQL
 
-![osTicket Setup](https://i.imgur.com/8Ml4LXO.png)
+![osTicket Setup](https://i.imgur.com//rFyHkBZ.png)
 
 Return to the osTicket desktop file and install **HeidiSQL**. Open the program and create a new session with
 ```
@@ -233,4 +240,5 @@ root
 root
 ```
 as the User/Password. 
+
 # 🎉 Installation Complete!
