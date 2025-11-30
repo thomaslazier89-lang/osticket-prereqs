@@ -31,9 +31,7 @@ https://microsoft.azure.com
 ![Azure VM Screen 1](https://i.imgur.com/cN5HPsV.png)  
 ![Azure VM Screen 2](https://i.imgur.com/0bX6ZiH.png)
 
-Navigate to the  
-[Azure Portal](https://portal.azure.com/auth/login),  
-log in, and create a virtual machine.
+Navigate to the [Azure Portal](https://portal.azure.com/auth/login), log in, and create a virtual machine.
 
 <br></br>
 ## 3. Configure VM Basics
