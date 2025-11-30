@@ -15,7 +15,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - **Windows 10 (21H2)**   
 
 # 🛠️ Installation Steps
-<br>
+<br></br>
 ## 1. Create or Sign In to an Azure Account
 
 ![Azure Account](https://i.imgur.com/rC9ZI2h.png)
@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 If you do not have an Azure account, go to:  
 https://microsoft.azure.com
 
-<br>
+<br></br>
 ## 2. Create an Azure Virtual Machine (VM)
 
 ![Azure VM Screen 1](https://i.imgur.com/cN5HPsV.png)  
@@ -33,14 +33,15 @@ Navigate to the
 [Azure Portal](https://portal.azure.com/auth/login),  
 log in, and create a virtual machine.
 
-<br>
+<br></br>
 ## 3. Configure VM Basics
 
 ![VM Create](https://i.imgur.com/Olnnzeo.png)
 
 Choose region **East US 2** for cost savings.
 
-<br>
+
+<br></br>
 ## 4. Optimize Your VM Settings
 
 ![VM Settings](https://i.imgur.com/UsGysGz.png)
@@ -52,7 +53,8 @@ Adminuser
 osTicketPassword1
 ```
 
-<br>
+
+<br></br>
 ## 5. Log Into the VM
 
 <div align="center">
@@ -72,7 +74,8 @@ osTicketPassword1
 
 Use your VM’s **public IP** and the credentials you configured to connect via Remote Desktop.
 
-<br>
+
+<br></br>
 ## 6. Download the osTicket Installation Files
 
 ![Download](https://i.imgur.com/SgAgGz1.png)
@@ -80,14 +83,16 @@ Use your VM’s **public IP** and the credentials you configured to connect via 
 Download here:  
 https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
 
-<br>
+
+<br></br>
 ## 7. Extract the Files
 
 ![Extract Files](https://i.imgur.com/GeRjOPp.png)
 
 Right-click → **Extract All** → choose Desktop.
 
-<br>
+
+<br></br>
 ## 8. Enable Internet Information Services with CGI
 
 ![IIS Setup](https://i.imgur.com/JGA0G2I.png)
@@ -97,6 +102,7 @@ Navigate to:
 **Control Panel → Add/Remove Features → Turn Windows Features On or Off → Click IIS and Expand Drop-Down Menu→ Application Development Features → CGI**
 
 
+<br></br>
 ## 9. Install PHP Manager & URL Rewrite
 
 ![PHP Manager](https://i.imgur.com/RrT7jLd.png)
@@ -107,6 +113,7 @@ Install:
 - **URL Rewrite** 
 
 
+<br></br>
 ## 10. Create the PHP Directory
 
 ![PHP Directory](https://i.imgur.com/RrT7jLd.png)
@@ -120,6 +127,7 @@ C:\PHP
 Extract **php-7.3.8** into this folder.
 
 
+<br></br>
 ## 11. Install VC Redist + MySQL
 
 ![MySQL Install](https://i.imgur.com/JJ6RA25.png)
@@ -142,6 +150,7 @@ root
 ```
 
 
+<br></br>
 ## 12. Open IIS as an Administrator
 
 ![IIS Setup](https://i.imgur.com/fwrf7Wa.png)
@@ -149,6 +158,7 @@ root
 Open **IIS** as an admin using the search bar.
 
 
+<br></br>
 ## 13. Register PHP and Reload IIS 
 
 ![IIS Setup](https://i.imgur.com/MKHEZ9l.png)
@@ -168,21 +178,24 @@ Provide the path to the file.
 Return to the **IIS Home Screen** by pressing the home or back icon on the taskbar and **Restart**.
 
 
-## 15. Install osTicket v1.15.8 and Reload IIS
+<br></br>
+## 14. Install osTicket v1.15.8 and Reload IIS
 
 ![osTicket Setup](https://i.imgur.com/8DuWmV1.png)
 
 Unzip the **osTicket-v1.15.8.zip** in its default location. Enter the folder and copy **Upload** into **C:\inetpub\wwwroot**, renaming it **osTicket**. Reload **IIS** again.
 
 
-## 16. Open the Extensions Page
+<br></br>
+## 15. Open the Extensions Page
 
 ![osTicket Setup](https://i.imgur.com/ZmsDPG2.png)
 
 Go to **Sites → Default Web Site → osTicket** and look in the right sidebar for **Browse *:80 (http)**. Observe that some extensions are disabled by default.
 
 
-## 17. Enable Extensions
+<br></br>
+## 16. Enable Extensions
 
 ![osTicket Setup](https://i.imgur.com/N38AwwM.png)
 
@@ -196,14 +209,16 @@ Enable:
 Return to **Sites → Default Web Site → osTicket** and click **Browse *:80 (http)** again to note the changes to the host website.
 
 
-## 18. Configure PHP file
+<br></br>
+## 17. Configure PHP file
 
 ![osTicket Setup](https://i.imgur.com/6kQFPlD.png)
 
 Rename **C:\inetpub\wwwroot\osTicket\include\ost-config.php** to **ost-config.php**
 
 
-## 19. Assign Permissions
+<br></br>
+## 18. Assign Permissions
 
 ![osTicket Setup](https://i.imgur.com/2cxtcJ1.png)
 
@@ -214,7 +229,8 @@ Right-click **ost-config.php** and select *Properties**. Open the **Security** t
 Finally, click **Add** and enter the object name **Everyone** in the text field. Give the principal **Full control**. Click OK twice, then press **Apply**.
 
 
-## 20. Set Up osTicket
+<br></br>
+## 19. Set Up osTicket
 
 ![osTicket Setup](https://i.imgur.com/4wB1QRT.png)
 
@@ -232,7 +248,8 @@ root
 as the username/password combination.
 
 
-## 21. Install HeidiSQL
+<br></br>
+## 20. Install HeidiSQL
 
 ![osTicket Setup](https://i.imgur.com//rFyHkBZ.png)
 
@@ -244,4 +261,5 @@ root
 as the User/Password. 
 
 
+<br></br>
 # 🎉 Installation Complete!
