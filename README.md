@@ -1,4 +1,4 @@
-# 🟦 osTicket — Prerequisites and Installation
+# osTicket — Prerequisites and Installation
 
 ![osTicket logo](https://i.imgur.com/Clzj7Xs.png)
 
