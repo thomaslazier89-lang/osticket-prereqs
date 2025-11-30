@@ -40,7 +40,7 @@ log in, and create a virtual machine.
 
 Choose region **East US 2** for cost savings.
 
-
+<br>
 ## 4. Optimize Your VM Settings
 
 ![VM Settings](https://i.imgur.com/UsGysGz.png)
@@ -52,7 +52,7 @@ Adminuser
 osTicketPassword1
 ```
 
-
+<br>
 ## 5. Log Into the VM
 
 <div align="center">
@@ -72,7 +72,7 @@ osTicketPassword1
 
 Use your VM’s **public IP** and the credentials you configured to connect via Remote Desktop.
 
-
+<br>
 ## 6. Download the osTicket Installation Files
 
 ![Download](https://i.imgur.com/SgAgGz1.png)
@@ -80,14 +80,14 @@ Use your VM’s **public IP** and the credentials you configured to connect via 
 Download here:  
 https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
 
-
+<br>
 ## 7. Extract the Files
 
 ![Extract Files](https://i.imgur.com/GeRjOPp.png)
 
 Right-click → **Extract All** → choose Desktop.
 
-
+<br>
 ## 8. Enable Internet Information Services with CGI
 
 ![IIS Setup](https://i.imgur.com/JGA0G2I.png)
